@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace MinecraftServerManager
+namespace MinecraftServerManager.UI
 {
     /// <summary>
     /// Interaction logic for App.xaml
