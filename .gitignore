@@ -1,0 +1,197 @@
+# Build output
+
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Visual Studio Code
+
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains Rider
+
+.idea/
+*.sln.iml
+
+# Test output
+
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# BenchmarkDotNet
+
+BenchmarkDotNet.Artifacts/
+
+# NuGet
+
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Publish output
+
+publish/
+PublishProfiles/
+*.pubxml
+*.pubxml.user
+
+# Generated files
+
+Generated/
+*.g.cs
+*.g.i.cs
+*.Designer.cs
+*.generated.cs
+
+# Temporary files
+
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.log
+*.tlog
+*.cache
+*.lock
+*.pid
+*.pdb
+*.ilk
+*.obj
+*.iobj
+*.ipdb
+*.opendb
+*.VC.db
+
+# Windows
+
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+
+.DS_Store
+
+# Application secrets and local settings
+
+appsettings.Local.json
+appsettings.Development.json
+secrets.json
+*.secrets.json
+*.secret
+*.credentials
+*.password
+*.key
+
+# Minecraft Server Manager local configuration
+
+MinecraftServerManager.local.json
+rcon-password.dat
+settings.local.json
+
+# Local server data
+
+server/
+backups/
+staging/
+world/
+world_nether/
+world_the_end/
+logs/
+crash-reports/
+
+# Minecraft files that should never be committed
+
+server.properties
+ops.json
+whitelist.json
+banned-players.json
+banned-ips.json
+usercache.json
+
+# Local databases
+
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Certificates and private keys
+
+*.pfx
+*.p12
+*.pem
+*.key
+*.cer
+*.crt
+*.der
+
+# Environment files
+
+.env
+.env.*
+!.env.example
+
+# Installer and packaging output
+
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+*.appinstaller
+
+# ClickOnce
+
+publish.htm
+setup.exe
+Application Files/
+
+# Code analysis
+
+*.sarif
+
+# ReSharper
+
+_ReSharper*/
+*.DotSettings.user
+
+# NCrunch
+
+*NCrunch**
+*.ncrunch*
+nCrunchTemp_*
+
+# StyleCop
+
+StyleCopReport.xml
+
+# Backup files created by editors
+
+*~
+*.swp
+*.swo
