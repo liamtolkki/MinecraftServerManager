@@ -1,4 +1,7 @@
 <Solution>
+  <Project Path="MinecraftServerManaer.Service/MinecraftServerManaer.Service.csproj" />
   <Project Path="MinecraftServerManager.Core/MinecraftServerManager.Core.csproj" Id="085a9460-3dae-4d75-8de6-6d4d8c41b8c1" />
+  <Project Path="MinecraftServerManager.Infrastructure/MinecraftServerManager.Infrastructure.csproj" />
+  <Project Path="MinecraftServerManager.Protocol/MinecraftServerManager.Protocol.csproj" />
   <Project Path="MinecraftServerManager.UI/MinecraftServerManager.UI.csproj" Id="c3553ac3-931a-4599-ac35-fbb2d435ae83" />
 </Solution>
